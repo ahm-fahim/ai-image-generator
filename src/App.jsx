@@ -1,7 +1,10 @@
 import React from "react";
+import Generator from "./components/Generator/Generator";
 
 const App = () => {
-  return <div>App</div>;
+  return <div>
+    <Generator/>
+  </div>;
 };
 
 export default App;
